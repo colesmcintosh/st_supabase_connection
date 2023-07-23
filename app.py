@@ -16,8 +16,9 @@ with `SupabaseConnection` to perform different operations on a Supabase database
 # Initialize the connection
 conn = st.experimental_connection('supabase', type=SupabaseConnection)
 
+
 # Input for table name
-table_name = st.text_input("Enter the table name")
+table_name = "test_table"
 
 insert_tab, select_tab, update_tab, delete_tab, get_client_tab = st.tabs(['Insert Demo', 'Select Demo', 'Update Demo', 'Delete Demo', 'Client Demo'])
 
