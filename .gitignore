@@ -132,6 +132,9 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# Video files
+*.webm
+
 # Rope project settings
 .ropeproject
 
